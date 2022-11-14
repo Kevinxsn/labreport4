@@ -52,21 +52,21 @@ In this case, there are two  ` start `  left so we nee to repeat 5 and 6 twice.
 ## Part2
 In this part, we have wo tasks to finish and we will answer two questions regarding to this two task. 
 
-1. Once, start in Visual Studio Code and make the edit there, then scp the file to the remote server and run it there to confirm it works (you can just run bash test.sh on the remote to test it out). Consider having the appropriate scp command in your command history or easily copy-pasteable!
+### Once, start in Visual Studio Code and make the edit there, then scp the file to the remote server and run it there to confirm it works (you can just run bash test.sh on the remote to test it out). Consider having the appropriate scp command in your command history or easily copy-pasteable!
 
 I tried several times and the average amount of time I finishi task is about five minutes. I think using VS Code to edit files is pretty fast and convenient, but copy and paste the files into remote server take me a little bit more time since I am not really familiar with the command. 
 
-2. Second, start already logged into a ssh session. Then, make the edit for the task you chose in Vim, then exit Vim and run bash test.sh.
+### Second, start already logged into a ssh session. Then, make the edit for the task you chose in Vim, then exit Vim and run bash test.sh.
 
 I tried several times and the average amount of time is about four minutes. The interesting part is that I spend more than eight minutes when I did this for the first fime bu then I improved a lot. I have to say that I do not like editing files in Vim because it takes me much more time compared with editing in VS code, however, I still feels it is faster than ` scp ` becsause I can edit files directly in the server. 
 
 
-3. Which of these two styles would you prefer using if you had to work on a program that you were running remotely, and why?
+### Which of these two styles would you prefer using if you had to work on a program that you were running remotely, and why?
 
 
 I prefer first one, this is because I feel confident when I edit files in the VS code and more importantly, I can test the files directly in the build in terminal in VS code and there are lot of useful extensions to help me editing the code. 
 
-4. What about the project or task might factor into your decision one way or another? (If nothing would affect your decision, say so and why!)
+### What about the project or task might factor into your decision one way or another? (If nothing would affect your decision, say so and why!
 
 
 I think the most important factor for me is the amount of editing I have to do. If the only thing I need to do is to change a name of parameter for fix a small bug, I will use `Vim`, otherwise, I will choose editing on the host. 
