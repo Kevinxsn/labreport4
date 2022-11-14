@@ -9,35 +9,35 @@ In this part, the task I choose is `DocSearchServer.java`. And in this part, the
 
 ### The whole vim sequence
 
-1. `vim DocSearchServer.java<Enter>`
+1.`vim DocSearchServer.java<Enter>`
 this command will let as edit the files by vim. 
 `<enter>` means to run the command. 
 
 ![Image](./image1.png)
 
-2. Then we will use `<>` to indiczzte special keys and type in 'start' to find the variable name we need to change
+2.Then we will use `<>` to indiczzte special keys and type in 'start' to find the variable name we need to change
 
 ![Image](./image2.png)
 
-3. Then we will use ` c ` and ` e `to change the command at the cursor's current location and ` e ` will help us to delete the entire paramter.  
+3.Then we will use ` c ` and ` e `to change the command at the cursor's current location and ` e ` will help us to delete the entire paramter.  
 
 ![Image](./image3.png)
 
-4. After delete `start`, we nee to type in `base`, then we will us e`<esc>` to exit the editor mode and go back to normal mode. 
+4.After delete `start`, we nee to type in `base`, then we will us e`<esc>` to exit the editor mode and go back to normal mode. 
 
 ![Image](./image5.png)
 
 
-5. Now we need to find the next ` start ` and change it into ` base `, we can just press ` n ` to find the next ` start ` rather than repeate the whole process we have mentioned before. 
+5.Now we need to find the next ` start ` and change it into ` base `, we can just press ` n ` to find the next ` start ` rather than repeate the whole process we have mentioned before. 
 
 ![Image](./image6.png)
 
-6. Now press `<.>`, which is a command that can help us repeat the step we have done to change ` start ` into ` base `
+6.Now press `<.>`, which is a command that can help us repeat the step we have done to change ` start ` into ` base `
 
 
 ![Image](./image7.png)
 
-7. now we repeat the step 5 and 6 again to change the next ` start ` into ` base `. 
+7.now we repeat the step 5 and 6 again to change the next ` start ` into ` base `. 
 In this case, there are two  ` start `  left so we nee to repeat 5 and 6 twice. 
 
 ![Image](./image8.png)
@@ -45,7 +45,7 @@ In this case, there are two  ` start `  left so we nee to repeat 5 and 6 twice.
 
 
 
-8.  Now we have changed the name of one parameter, the next step is to save the change and exit so we can go to the neext step. we need to press `:wq` to let the device process what we jsut talked about, ` w ` is write the changes and ` q ` is quit. 
+8.Now we have changed the name of one parameter, the next step is to save the change and exit so we can go to the neext step. we need to press `:wq` to let the device process what we jsut talked about, ` w ` is write the changes and ` q ` is quit. 
 
 ![Image](./image4.png)
 
