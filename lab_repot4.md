@@ -62,7 +62,11 @@ I tried several times and the average amount of time is about four minutes. The 
 
 
 3. Which of these two styles would you prefer using if you had to work on a program that you were running remotely, and why?
+
+
 I prefer first one, this is because I feel confident when I edit files in the VS code and more importantly, I can test the files directly in the build in terminal in VS code and there are lot of useful extensions to help me editing the code. 
 
 4. What about the project or task might factor into your decision one way or another? (If nothing would affect your decision, say so and why!)
+
+
 I think the most important factor for me is the amount of editing I have to do. If the only thing I need to do is to change a name of parameter for fix a small bug, I will use `Vim`, otherwise, I will choose editing on the host. 
